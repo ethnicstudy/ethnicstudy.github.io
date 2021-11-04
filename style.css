@@ -13,6 +13,55 @@ body{
 	color: #fff;
 }
 
+/* ********************************************
+ *   NAV STYLES 
+ *********************************************/
+
+.nav-wrapper{
+	font-family: 'Teko', sans-serif;
+	overflow: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+
+.left-side{
+	display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+	margin-right: 20px;
+	font-size: 2.1em;
+	text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.3s;
+}
+
+.nav-link-wrapper a{
+	color: black;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.nav-link-wrapper a:hover{
+	color: #E9E9E9;
+}
+
+.right-side{
+	font-size: 2em;
+	display: flex;
+	color: black;
+}
+
+
+/* ********************************************
+ *   TIMELINE 
+ *********************************************/
+
 .timeline ul li{
 	position: relative;
 	width: 50%;
