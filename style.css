@@ -13,6 +13,15 @@ body{
 	color: #fff;
 }
 
+.container{
+	min-height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+
+
 /* ********************************************
  *   NAV STYLES 
  *********************************************/
@@ -134,4 +143,30 @@ body{
 
 .content p{
 	font-size: 14px;
+}
+
+/* ********************************************
+ *   CONTENT / SOURCES
+ *********************************************/
+
+.content{
+	width: 100%
+	background: black;
+}
+
+.content h1{
+	margin-right: 0%;
+	font-family: 'Teko', sans-serif;
+	font-size: 70px;
+	font-weight: 999999;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content p{
+	text-align: justify;
+	font-size: 25px;
+	margin-right: 10%;
+	margin-left: 10%;
 }
