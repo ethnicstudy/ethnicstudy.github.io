@@ -1,19 +1,288 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Online Museum</title>
-	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	    <meta charset="UTF-8">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
  	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+
+<style>
+	 *{
+	margin:0px;
+	padding:0px;
+	}
+.section{
+	width: 100%;
+	min-height: 80vh;
+	background-color: #4ABDAC;
+	}
+
+	.section1{
+	width: 100%;
+	min-height: 80vh;
+	background-color: #FC4A1A;
+	}
+
+	.section2{
+	width: 100%;
+	min-height: 80vh;
+	background-color: #F7B733;
+	}
+
+	.section3{
+	width: 100%;
+	min-height: 150vh;
+	background-color: #9ACD32;
+	}
+
+
+.containers{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+	}
+.content-section{
+	float: left;
+	width: 100%;
+	}
+
+.image-section{
+	float: left;
+	width: 40%;
+	}
+.image-section img{
+	width: 100%;
+	height: auto;
+	}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+	}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+	}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	}
+.content-section .content .button{
+	margin-top: 30px;
+	}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+	}
+.content-section .social{
+	margin: 40px 40px;
+	}	
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+	}
+.content-section .social i:hover{
+	color:#3d3d3d;
+	}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+	}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+	}
+.image-section{
+	float:none;
+	width:100%;
+	
+	}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+	}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+	}
+.content-section .content .button{
+	text-align: center;
+	}
+.content-section .content .button a{
+	padding:9px 30px;
+	}
+.content-section .social{
+	text-align: center;
+	}
+
+}
+
+.content-section1{
+	float: right;
+	width: 100%;
+	}
+
+.image-section{
+	float: right;
+	width: 40%;
+	}
+.image-section img{
+	width: 100%;
+	height: auto;
+	}
+.content-section1 .title{
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 28px;
+	}
+.content-section1 .content h3{
+	text-align: right;
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+	}
+.content-section1 .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	}
+.content-section1 .content .button{
+	margin-top: 30px;
+	}
+.content-section1 .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	}
+.content-section1 .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+	}
+.content-section1 .social{
+	margin: 40px 40px;
+	}	
+.content-section1 .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+	}
+.content-section1 .social i:hover{
+	color:#3d3d3d;
+	}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+	}
+.content-section1{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+	}
+.image-section{
+	float:none;
+	width:100%;
+	
+	}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+	}
+.content-section1 .title{
+	text-align: center;
+	font-size: 19px;
+	}
+.content-section1 .content .button{
+	text-align: center;
+	}
+.content-section1 .content .button a{
+	padding:9px 30px;
+	}
+.content-section1 .social{
+	text-align: center;
+	}
+
+}
+
+
+.nav-wrapper{
+	font-family: 'Teko', sans-serif;
+	overflow: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+
+.left-side{
+	display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+	margin-right: 20px;
+	font-size: 2.1em;
+	text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.3s;
+}
+
+.nav-link-wrapper a{
+	color: black;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.nav-link-wrapper a:hover{
+	color: #E9E9E9;
+}
+
+.right-side{
+	font-size: 2em;
+	display: flex;
+	color: black;
+}
+
+
+</style>
+
+
+
 </head>
 <body>
-	<div class="container">
-		<div class="backgroundmembers">
-
 		<div class="nav-wrapper">
 				<div class="left-side">
 					<div class="nav-link-wrapper">
@@ -41,49 +310,94 @@
 		</div>
 
 
-		<br>
-		<div class="members">
-			<h1>ABOUT THE PROJECT</h1>
-			<br>
-			<div class="gallery">
-				<img src="images/noharr.png" alt="" width="65">
-				<div class="description">
-					<h2>Nohar Segal</h2>
-					<h3>Student</h3>
-					<p>GS '23, Psychology</p>
-				</div>	
+		<div class="section">
+		<div class="containers">
+			<div class="content-section">
+				<div class="title">
+					<h1>Introduction</h1>
+				</div>
+				<div class="content">
+					<h3>Our society nowadays is a medicatic one.</h3>
+					<p>Many things we talk, think and care about come from what we see in the media. It provides information, entertainment, an escape, pleasure, but it can also cause harm. 
+						<br>
+					We could divide the media into three major elements: the producers, the audience and the content. “Production involves anything having to do with the creation and distribution of mediated messages: how the messages are assembled, by whom, in what circumstances, and under what constraints. Content emphasizes the mediated messages themselves: what they present, and how; what is included, and by implication, what is excluded. Audience addresses the people who engage, consume, or interact with mediated messages: how they use the media, what sense they make of media content, and how they are affected by the media.”
+</p>
+					<div class="button">
+						<a href="sources.html">Read More</a>
+					</div>
+				</div>
 			</div>
-
-			<div class="gallery">
-				<img src="images/julia.jpeg" alt="" width="65">
-				<div class="description">
-					<h2>Julia Moncayo v. Hase</h2>
-					<h3>Student</h3>
-					<p>SEAS '23, Applied Mathematics</p>
-				</div>	
+			<div class="image-section">
+				<img src="image/img one.jpg">
 			</div>
-		</div>	
-		<br>
-		<div class="content">
-		<h1>    </h1>
-		<br>
-			<p>
-				This project was created with the purpose of giving Columbia students a museum experience through a website that allows them to do it from the comfort of their phone. This allows students to scroll through the museum in the library, on the way to class, or right before falling asleep. This new form of attending a museum has the same powerful impact, with no COVID restrictions. 
-
-Nohar and Julia are students in Columbia University taking Introduction to Comparative Ethnic Studies. This class educates students on race and ethnicity and how the two exert powerful effects in society. It also provides historical background and ideas of “ethnic studies” and expresses the importance of the field. Through literature, documentaries, and personal stories this class has made a huge impact on Nohar and Julia. 
-<p>
-	<br>
-			<p>
-From Nohar and Julia - 
-We both understand the dramatic shift in technology that is happening in the world and agree that the future of spreading information (good and bad) is through networks. This is the reason that we decided to create the museum online to prove that education can happen through your phone and your personal ease and pleasure. We hope you take the time to read through all the powerful covers that we have compiled and understand the importance of media and public education. 
-
-May together we continue to make the world a better place. 
-
-			</p>
 		</div>
-			<br>
-		</div>
-			<br>
 	</div>
+
+	<div class="section1">
+		<div class="containers">
+			<div class="content-section1">
+				<div class="title">
+					<h1>Motivation</h1>
+				</div>
+				<div class="content">
+					<h3>We consume media everywhere.</h3>
+					<p>Media plays an important role in our daily lives since we consume media everywhere we are and sometimes do not manage to realize the power it has to perceive the world around us in a certain way. One important aspect of the media is stereotypes. Stereotypes reflect our beliefs that the few traits we stress are representative when applied to a group of people. There is a denial of the individual characteristics among the persons. Often stereotypes come in hand with prejudice, which Healey and O’Brien defined as “the tendency of an individual to think about other groups in negative ways, to attach negative emotions to those groups, and to prejudge individuals on the basis of their group membership”. 
+					Throughout the years, magazine covers have featured these stereotypes fostering a prejudice among society and using the power of that type of media for bad. 
+					</p>
+				</div>
+			</div>
+			<div class="image-section">
+				<img src="image/img one.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div class="section2">
+		<div class="containers">
+			<div class="content-section">
+				<div class="title">
+					<h1>Goal</h1>
+				</div>
+				<div class="content">
+					<h3>We can use the power of media for good.</h3>
+					<p>If we can identify and be aware of  the ways in which the media manipulates our viewing and judgement, we can revert that effect. Especially knowing and understanding the power of media, it can become a tool for spreading a good message too. Media can drive people together. It can do good. Through a Google Translate one can communicate in a foreign country or even a social cause can have a greater impact through Instagram. We focus on a specific type of media: magazine covers. In the Online Museum we show a column of covers that throughout the years have tried to use the power of media to convey a vanguardistas and positive message to the audience. We hope that through the online submission in the Cover-Section we will be able to continue the trend. </p>
+					<div class="button">
+						<a href="sources.html">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="image-section">
+				<img src="image/img one.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div class="section3">
+		<div class="containers">
+			<div class="content-section1">
+				<div class="title">
+					<h1>Examples</h1>
+				</div>
+				<div class="content">
+					<p>In order to have a contrast to the magazines of the Online Museum, we will portray some magazine covers that have used the power of the media for worse. 
+					</p>
+				</div>
+			</div>
+			<div class="image-section">
+				<img src="images/aaa.png">
+			</div>
+			<div class="image-section">
+				<img src="images/bbb.png">
+			</div>
+			<div class="image-section">
+				<img src="images/ccc.png">
+			</div>
+			<div class="image-section">
+				<img src="images/ddd.png">
+			</div>
+		</div>
+	</div>
+
+
 </body>
 </html>
